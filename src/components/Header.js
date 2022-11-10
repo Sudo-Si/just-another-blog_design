@@ -6,8 +6,8 @@ const  Header =()=>
     
         <div className="headerTitles">
 
-        <span className="headerTitleSm">React & Node </span>
-        <span className="headerTitleLg">Blog </span>
+        <span className="headerTitleSm">Just Another Blog </span>
+        <span className="headerTitleLg">JAB </span>
         </div>
         <img src={headerimg} alt=""/>
         </div>
