@@ -26,11 +26,11 @@ const  Navbar =()=>
             <NavLink to='/' className="lnk" element={<Home/>}>Home</NavLink>
             
             <NavLink to='/about' className="lnk" element={<About/>}>About</NavLink>
-            <NavLink to='/contact' className="lnk" element={<About/>}>Contact</NavLink>
-            <NavLink to='/write' className="lnk" element={<About/>}>Write</NavLink>
+            {/* <NavLink to='/contact' className="lnk" element={<About/>}>Contact</NavLink> */}
+            {/* <NavLink to='/write' className="lnk" element={<About/>}>Write</NavLink> */}
             {/* <NavLink to='/login' className="lnk" element={<Login/>}>Login</NavLink>  */}
             {/* <NavLink to='/products' className="lnk" element={<Products/>}>Products</NavLink> */}
-            <NavLink to='/logout' className="lnk" element={<Login/>}>Logout</NavLink>
+            {/* <NavLink to='/logout' className="lnk" element={<Login/>}>Logout</NavLink> */}
             </div>
             <div className="top-right">
                 <img className="top-search-icon" src={simon} alt=""/>

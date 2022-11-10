@@ -1,7 +1,4 @@
-// import { Link, Outlet } from "react-router-dom";
-// import Products from "./Products";
-// import Home from "./Home";
-// import About from './About'
+
 const  Footer =()=>
 {
     return (

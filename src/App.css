@@ -135,7 +135,7 @@ color:aqua;
 }
 .headerTitleSm{
   position: absolute;
-  top: 18%;
+  top: 20%;
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.0);
   color: black
@@ -143,7 +143,7 @@ color:aqua;
 }
 .headerTitleLg{
   position: absolute;
-  top: 18.5%;
+  top: 22.5%;
   font-size: 100px;
   background-color: rgba(0, 0, 0, 0.0);
   color: black
@@ -154,7 +154,70 @@ width: 100%;
 height: 450px;
 margin-top: 80px;
 object-fit: cover;
-
- 
 }
 
+.home{
+  display: flex;
+
+}
+.posts{
+  flex:9;
+}
+.sideBar{
+  flex:3;
+  margin:20px;
+  padding-bottom: 30px;
+  /* background-color:#e05933 ; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sideBar >img{
+
+  margin-top: 15px ;
+}
+.abtImage{
+  width:300px
+}
+.sidebarItem{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.sideBarTitle{
+  margin :10px;
+  padding: 5px;
+  width: 80%;
+  border-top:1px solid #FDF4D9 ;
+  border-bottom:1px solid #FDF4D9 ;
+  font-size: 15px;
+  color: gold;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.sideBarList{
+  list-style: none;
+  margin-bottom: 30px;
+
+}
+
+
+.sideBarListItem{
+  color:aliceblue;
+  display: inline-block;
+width:45%;
+color:aliceblue;
+margin-top:15px;
+cursor: pointer;
+/* justify-content: center; */
+
+}
+.sideBarIcon{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 16px;
+}
