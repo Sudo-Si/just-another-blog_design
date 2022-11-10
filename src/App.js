@@ -4,12 +4,12 @@ import Home from './pages/Home'
 import Error from './pages/Error'
 import Products from './pages/Products';
 import SingleProduct from './pages/SingleProduct';
-import SharedLayout from './pages/SharedLayout';
-import SharedProductLayout from './pages/SharedProductLayout';
-import Footer from './pages/Footer';
-import Login from './pages/Login';
+import SharedLayout from './components/SharedLayout';
+import SharedProductLayout from './components/SharedProductLayout';
+import Footer from './components/Footer';
+import Login from './components/Login';
 import Dashboard from './pages/Dashboard';
-import ProtectedRoute from './pages/ProtectedRoute';
+import ProtectedRoute from './components/ProtectedRoute';
 
 import About from './pages/About';
 import './App.css';

@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import Products from "./Products";
-import Home from "./Home";
+import Products from "../pages/Products";
+import Home from "../pages/Home";
 import Login from "./Login";
 import simon from '../images/simon.png'
 
-import About from './About'
+import About from '../pages/About'
 const  Navbar =()=>
 {
     return (
