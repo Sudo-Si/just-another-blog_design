@@ -2,16 +2,14 @@
 // import Products from "./Products";
 // import About from './About'
 // import Navbar from "./Navbar";
+
+import Header from "./Header";
+
 const  Home =()=>
 {
     return (
         <> 
-   
-        <section className="section">
-            <h1>Home Page</h1>
-   
-
-        </section>
+   <Header />
         </>
     )
 }
