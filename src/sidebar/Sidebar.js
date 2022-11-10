@@ -16,16 +16,6 @@ export default function Sidebar() {
       </div>
 
 
-
-
-
-
-
-
-
-
-
-
       <div className="sidebarItem">
          <span className='sideBarTitle'> Catagories</span>   
         
@@ -34,19 +24,11 @@ export default function Sidebar() {
             <li className='sideBarListItem'> 3D Printing </li>
             <li className='sideBarListItem'> Outdoors</li>
             <li className='sideBarListItem'> Tv Shows </li>
+            <li className='sideBarListItem'> Music </li>
             <li className='sideBarListItem'> Tech </li>
         </ul>
       </div>
- 
-
-
-
-
-
-
-
-
-      <div className="sidebarItem">
+       <div className="sidebarItem">
     <span className='sideBarTitle'> Follow Me</span>   
   <div className='sideBarIcon'>
     <i class="sideBarIcon fab fa-instagram-square"></i>
