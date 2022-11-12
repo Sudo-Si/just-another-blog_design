@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 #secrets 
 .secrets.txt
-/secrets
+/.secrets
 /secrets/secrets.txt
