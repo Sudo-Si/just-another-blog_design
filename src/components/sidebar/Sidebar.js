@@ -1,5 +1,5 @@
 import React from 'react'
-import simon from '../images/simon.png'
+import simon from '../../images/simon.png'
 export default function Sidebar() {
   return (
     <div className='sideBar'>

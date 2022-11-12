@@ -13,10 +13,22 @@ import ProtectedRoute from './components/ProtectedRoute';
 
 import About from './pages/About';
 import './App.css';
+// import Home from './pages/Home'
+import Single from './pages/single/Single';
+import StyledNavbar from './components/StyledNavbar';
 function App() {
-  const [user,setUser] =useState(null)
+  // const [user,setUser] =useState(null)
   return (
-    <BrowserRouter>  
+   
+    <> 
+    
+    {/* <StyledNavbar/> */}
+    {/* <Home/> */}
+    <Single/>
+    
+    </>
+    // <BrowserRouter>  
+      /* 
       <Routes>
         <Route path='/' element={<SharedLayout />}>
         <Route index element={<Home/>}/>
@@ -40,10 +52,13 @@ function App() {
          
         <Route path='*' element={<Error/>} />
         </Route>
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
-  );
+      </Routes> */
+      // <Single/>
+     
+      // <Footer/>
+    
+    // {/* </BrowserRouter> */}
+  )
 }
 
 export default App;

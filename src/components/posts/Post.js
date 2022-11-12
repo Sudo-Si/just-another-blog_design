@@ -1,5 +1,5 @@
 import React from 'react'
-import programming from'../images/Programming.png'
+import programming from'../../images/Programming.png'
 
 export default function Post() {
   return (
