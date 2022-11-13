@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Products from "../pages/Products";
 import Home from "../pages/Home";
 import Login from "./Login";
 import simon from '../images/simon.png'
