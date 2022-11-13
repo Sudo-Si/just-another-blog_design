@@ -1,5 +1,6 @@
 // import {useState} from 'react';
 // import{ useNavigate} from 'react-router-dom';
+import{ Link} from 'react-router-dom';
 const  Register =()=>{
     // const [name, setName]= useState('');
     // const [email, setEmail]= useState('');
@@ -28,8 +29,9 @@ const  Register =()=>{
            
             
 
-            </form> 
-<button className='registerLoginButton'>Login</button>
+            </form> <button className="liRegisterButton">
+    <Link to='/login' className="lnk" > Login</Link> 
+</button>
 
 
 

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import simon from '../images/simon.png'
@@ -6,8 +6,12 @@ import simon from '../images/simon.png'
 import About from '../pages/About'
 // import Single from "../pages/single/Single";
 import Write from "../components/write/Write";
+import Register from "../pages/Register";
 const  Navbar =()=>
 {
+    const user =
+    true;
+    // false;
     return (
         <nav className="navbar">
         <NavLink 
@@ -31,12 +35,22 @@ const  Navbar =()=>
 
             {/* <NavLink to='/contact' className="lnk" element={<About/>}>Contact</NavLink> */}
             {/* <NavLink to='/write' className="lnk" element={<About/>}>Write</NavLink> */}
-            <NavLink to='/login' className="lnk" element={<Login/>}>Login</NavLink> 
-            {/* <NavLink to='/products' className="lnk" element={<Products/>}>Products</NavLink> */}
-            {/* <NavLink to='/logout' className="lnk" element={<Login/>}>Logout</NavLink> */}
+            {/* <NavLink to='/login' className="lnk" element={<Login/>}>Login</NavLink>  */}
+            {/* <NavLink to='/logout' className="lnk" element={user ? <Login/> :}>Logout</NavLink> */}
             </div>
             <div className="top-right">
-                <img className="top-search-icon" src={simon} alt=""/>
+                {user ? (   
+                <img 
+                className="top-search-icon" 
+                src={simon} 
+                alt=""/>
+                ) :(
+                    <>
+                <Link to='/login' className="lnk" element={<Login/>}>Login</Link> 
+                <Link to='/register' className="lnk" element={<Register/>}>Register</Link> 
+                </>
+                )}
+             
             <i class="fas fa-search"></i>
               
             </div>

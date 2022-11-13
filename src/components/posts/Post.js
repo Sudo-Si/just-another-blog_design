@@ -1,17 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import programming from'../../images/Programming.png'
+
 
 export default function Post() {
   return (
     <div className='post'>
       {/* <h1>Hi Si</h1> */}
-      <img className='postImg' src={programming} />
+      <Link to='/post/5156' className="lnk" >      <img className='postImg' src={programming}  /></Link>
+
       <div className="postInfo">
             <div className='postCats'>
                 <span className='postCat'>music</span>
                 <span className='postCat'>Life</span>
             </div>
-            <span className='postTitle'> My Posts </span>
+            <span className='postTitle'> 
+            <Link to='/post/5156' className="lnk" > 
+            My Post
+            </Link> 
+            </span>
             <hr/>
             <span className='postDate'> 1 hour ago </span>
             <p className='postDescription'> 

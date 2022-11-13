@@ -1,10 +1,11 @@
 import React from 'react'
-import simon from '../../images/simon.png'
+import simon from '../../images/simon.png';
+import{ Link} from 'react-router-dom';
 export default function Sidebar() {
   return (
     <div className='sideBar'>
       <div className="sidebarItem">
-    <span className='sideBarTitle'> About Me</span>   
+    <span className='sideBarTitle'> <Link to='/about'  > About Me</Link></span>   
   
 <img className="abtImage" src={simon} alt=""/>    
 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
