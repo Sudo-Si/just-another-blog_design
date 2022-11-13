@@ -2,29 +2,29 @@ import{useState} from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import Error from './pages/Error'
-import Products from './pages/Products';
-import SingleProduct from './pages/SingleProduct';
-import SharedLayout from './components/SharedLayout';
-import SharedProductLayout from './components/SharedProductLayout';
 import Footer from './components/Footer';
 import Login from './components/Login';
-import Dashboard from './pages/Dashboard';
-import ProtectedRoute from './components/ProtectedRoute';
-
 import About from './pages/About';
 import './App.css';
 // import Home from './pages/Home'
+import Settings from './pages/settings/Settings';
 import Single from './pages/single/Single';
 import Write from './components/write/Write';
+<<<<<<< HEAD
 import StyledNavbar from './components/StyledNavbar';
+=======
+import Navbar from './components/StyledNavbar';
+>>>>>>> User-Components
 function App() {
   // const [user,setUser] =useState(null)
   return (
    <> 
    {/* <StyledNavbar/>  */}
+   {/* <avbar/>  */}
      {/* <Home/>  */}
    {/* <Single/>  */}
-   <Write />
+   {/* <Write /> */}
+   <Settings />
    </>
 
     
