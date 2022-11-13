@@ -9,7 +9,7 @@ p{
   color: aliceblue;
   font-size: 1rem;}
 *{
-  background-color:#D38A6E ;
+  background-color:lightyellow ;
 padding: 0;
 margin: 3px;}
 
@@ -349,4 +349,74 @@ color: yellow;
 margin-left: 20px;
 font-size: 30px;
 font-weight: 3600px;
+}
+.addPhotoIcon{
+  color: black;
+  width: 20px;
+}
+
+/* //write */
+
+/* write .writeForm writeFormGroup writeInput writeInput writeText writeSubmit */
+
+.write{
+  padding-top:50px
+}
+
+.writeForm{
+  position: relative;
+  
+
+}
+.writeIcon{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: grey;
+  margin: 0;
+cursor: pointer;
+}
+.writeFormGroup{
+  margin-left: 150px ;
+  display: flex;
+  align-items: center;
+} 
+.writeInput{
+  font-size: 30px;
+  border:none;
+  padding :20px;
+  width:70vh;
+} 
+.writeInput:focus {
+  outline:none;
+} 
+.writeText{
+  font-size: 20px;
+  height: 100vh;
+
+} 
+.writeSubmit{
+  position: absolute;
+  top:20px;
+  right: 50px;
+  color: white;
+  background-color: teal;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size:25px;
+}
+.writeImg{
+  margin-left:150px ;
+  width: 70vw;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+
 }

@@ -5,6 +5,7 @@ import Login from "./Login";
 import simon from '../images/simon.png'
 
 import About from '../pages/About'
+import Single from "../pages/single/Single";
 const  Navbar =()=>
 {
     return (
@@ -26,6 +27,8 @@ const  Navbar =()=>
             <NavLink to='/' className="lnk" element={<Home/>}>Home</NavLink>
             
             <NavLink to='/about' className="lnk" element={<About/>}>About</NavLink>
+            <NavLink to='/single' className="lnk" element={<Single />}>Post</NavLink>
+
             {/* <NavLink to='/contact' className="lnk" element={<About/>}>Contact</NavLink> */}
             {/* <NavLink to='/write' className="lnk" element={<About/>}>Write</NavLink> */}
             {/* <NavLink to='/login' className="lnk" element={<Login/>}>Login</NavLink>  */}

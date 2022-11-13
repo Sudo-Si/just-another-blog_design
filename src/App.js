@@ -15,49 +15,52 @@ import About from './pages/About';
 import './App.css';
 // import Home from './pages/Home'
 import Single from './pages/single/Single';
+import Write from './components/write/write';
 import StyledNavbar from './components/StyledNavbar';
 function App() {
   // const [user,setUser] =useState(null)
   return (
-   
-    <> 
-    
-    {/* <StyledNavbar/> */}
-    {/* <Home/> */}
-    <Single/>
-    
-    </>
-    // <BrowserRouter>  
-      /* 
-      <Routes>
-        <Route path='/' element={<SharedLayout />}>
-        <Route index element={<Home/>}/>
-        <Route path='/products' element={<Products/>} />
-        <Route path='/about' element={<About/>} />
+   <> 
+   {/* <StyledNavbar/>  */}
+     {/* <Home/>  */}
+   {/* <Single/>  */}
+   <Write />
+   </>
 
-        <Route path='/products' element={<SharedProductLayout />}>
-          <Route index element ={<Products />}/>
-          <Route path=':productId' element={<SingleProduct/>}/> 
-        </Route>
-       
-        <Route path='/login' element={<Login setUser ={setUser}></Login>} />     
-        <Route 
-        path='dashboard'
-         element={
-         <ProtectedRoute user={user}>
-          <Dashboard user ={user}/>
-         </ProtectedRoute>
-          }
-           />     
-         
-        <Route path='*' element={<Error/>} />
-        </Route>
-      </Routes> */
-      // <Single/>
-     
-      // <Footer/>
     
-    // {/* </BrowserRouter> */}
+   
+  //  <BrowserRouter>  
+      
+  //     <Routes>
+  //       <Route path='/' element={<SharedLayout />}>
+  //       <Route index element={<Home/>}/>
+  //       <Route path='/products' element={<Products/>} />
+  //       <Route path='/about' element={<About/>} />
+  //       <Route path='/single' element={<Single/>} />
+
+        // {/* <Route path='/products' element={<SharedProductLayout />}>
+        //   <Route index element ={<Products />}/>
+        //   <Route path=':productId' element={<SingleProduct/>}/> 
+        // </Route>
+        // */}
+        // {/* <Route path='/login' element={<Login setUser ={setUser}></Login>} />     
+        // <Route 
+        // path='dashboard'
+        //  element={
+        //  <ProtectedRoute user={user}>
+        //   <Dashboard user ={user}/>
+        //  </ProtectedRoute>
+        //   }
+          //  />      */}
+         
+        // {/* <Route path='*' element={<Error/>} />
+      //   </Route>
+      // </Routes> 
+      //  <Single/>
+     
+      //  <Footer/>
+    
+  //  </BrowserRouter>  */}
   )
 }
 

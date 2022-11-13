@@ -39,13 +39,7 @@ export default function SinglePost() {
         nunc sed id. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec. 
         Laoreet non curabitur gravida arcu. Amet massa vitae tortor condimentum. Sapien 
         eget mi proin sed libero enim. Molestie at elementum eu.
-        
-         
         </p>
-
-    
-
-
        </div>
       </div>
       </>
