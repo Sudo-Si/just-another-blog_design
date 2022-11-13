@@ -15,7 +15,7 @@ import About from './pages/About';
 import './App.css';
 // import Home from './pages/Home'
 import Single from './pages/single/Single';
-import Write from './components/write/write';
+import Write from './components/write/Write';
 import StyledNavbar from './components/StyledNavbar';
 function App() {
   // const [user,setUser] =useState(null)
