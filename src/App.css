@@ -9,7 +9,7 @@ p{
   color: aliceblue;
   font-size: 1rem;}
 *{
-  background-color:rgba(137, 21, 245, 0.738) ;
+  background-color:rgba(137, 21, 245, 1) ;
 padding: 0;
 margin: 3px;}
 
@@ -499,3 +499,123 @@ object-fit: cover;
 } 
 /* .settingsWrapper{}  */
 /* .settings{}  */
+
+/* login styles */
+.loginForm{  
+  
+  margin-top: 50px;
+  background-color:    rgba(255,255,255, .0);
+  margin-top: 20px;
+display: flex;
+flex-direction: column;}
+.loginButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  border-radius: 15px;
+  height: 30px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+.login{
+  align-items: center;
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image:linear-gradient(
+    rgba(255,255,255, .5),rgba(255,255,255, .5)),
+   url("https://source.unsplash.com/500x600?signup");
+  background-size: cover;
+}
+.loginTitle{
+  background-color:    rgba(255,255,255, .0);
+  font-size: 50px; 
+  /* font-size: 50px;
+  margin-top: 20px; */
+}
+.loginForm > label{
+  background-color:    rgba(255,255,255, .0);
+  margin: 10px 0;
+}
+.loginInput{
+  background-color:    rgba(255,255,255, .0);
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.liRegisterButton{
+  top: 65px;
+  right: 20px;
+position: absolute;
+margin-top: 20px;
+cursor: pointer;
+background-color: teal;
+border: none;
+padding: 10px;
+color: white;
+border-radius: 10px;
+}
+
+
+
+
+/* register styles */
+.registerForm{  
+  
+  margin-top: 50px;
+  background-color:    rgba(255,255,255, .0);
+  margin-top: 20px;
+display: flex;
+flex-direction: column;}
+.registerButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  border-radius: 15px;
+  height: 30px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+.register{
+  align-items: center;
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image:linear-gradient(
+    rgba(255,255,255, .5),rgba(255,255,255, .5)),
+   url("https://source.unsplash.com/500x600?signup");
+  background-size: cover;
+}
+.registerTitle{
+  background-color:    rgba(255,255,255, .0);
+  font-size: 50px; 
+  /* font-size: 50px;
+  margin-top: 20px; */
+}
+.registerForm > label{
+  background-color:    rgba(255,255,255, .0);
+  margin: 10px 0;
+}
+.registerInput{
+  background-color:    rgba(255,255,255, .0);
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.registerLoginButton{
+  top: 65px;
+  right: 20px;
+position: absolute;
+margin-top: 20px;
+cursor: pointer;
+background-color: teal;
+border: none;
+padding: 10px;
+color: white;
+border-radius: 10px;
+}

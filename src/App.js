@@ -2,66 +2,48 @@ import{useState} from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import Error from './pages/Error'
-import Footer from './components/Footer';
-import Login from './components/Login';
+// import Products from './pages/Products';
+// import SingleProduct from './pages/SingleProduct';
+import SharedLayout from './components/SharedLayout';
+// import SharedProductLayout from './pages/SharedProductLayout';
+import Footer from './pages/Footer';
+import Login from './pages/Login';
+import Register from './pages/Register';
+// import Dashboard from './pages/Dashboard';
+import Write from './components/write/Write';
+
 import About from './pages/About';
 import './App.css';
-// import Home from './pages/Home'
-import Settings from './pages/settings/Settings';
-import Single from './pages/single/Single';
-import Write from './components/write/Write';
-<<<<<<< HEAD
-import StyledNavbar from './components/StyledNavbar';
-=======
-import Navbar from './components/StyledNavbar';
->>>>>>> User-Components
 function App() {
-  // const [user,setUser] =useState(null)
+  const [user,setUser] =useState(null)
   return (
-   <> 
-   {/* <StyledNavbar/>  */}
-   {/* <avbar/>  */}
-     {/* <Home/>  */}
-   {/* <Single/>  */}
-   {/* <Write /> */}
-   <Settings />
-   </>
+    <BrowserRouter>  
+      <Routes>
+        <Route path='/' element={<SharedLayout />}>
+        <Route index element={<Home/>}/>
+        {/* <Route path='/products' element={<Products/>} /> */}
+        <Route path='/about' element={<About/>} />
 
-    
-   
-  //  <BrowserRouter>  
-      
-  //     <Routes>
-  //       <Route path='/' element={<SharedLayout />}>
-  //       <Route index element={<Home/>}/>
-  //       <Route path='/products' element={<Products/>} />
-  //       <Route path='/about' element={<About/>} />
-  //       <Route path='/single' element={<Single/>} />
-
-        // {/* <Route path='/products' element={<SharedProductLayout />}>
-        //   <Route index element ={<Products />}/>
-        //   <Route path=':productId' element={<SingleProduct/>}/> 
-        // </Route>
-        // */}
-        // {/* <Route path='/login' element={<Login setUser ={setUser}></Login>} />     
-        // <Route 
-        // path='dashboard'
-        //  element={
-        //  <ProtectedRoute user={user}>
-        //   <Dashboard user ={user}/>
-        //  </ProtectedRoute>
-        //   }
-          //  />      */}
+        {/* <Route path='/products' element={<SharedProductLayout />}>
+          <Route index element ={<Products />}/>
+          <Route path=':productId' element={<SingleProduct/>}/> 
+        </Route> */}
+        
+        <Route path='/write' element={<Write/>} />
+        <Route path='/register' element={<Register/>} />
+        <Route path='/login' element={<Login />
+        
+              } />  
+           
+            
          
-        // {/* <Route path='*' element={<Error/>} />
-      //   </Route>
-      // </Routes> 
-      //  <Single/>
-     
-      //  <Footer/>
-    
-  //  </BrowserRouter>  */}
-  )
+        <Route path='*' element={<Error/>} />
+       
+        </Route>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
+  );
 }
 
 export default App;
